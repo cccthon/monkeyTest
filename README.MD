@@ -1,10 +1,10 @@
-### Android monkey test for mac , linux
+# Android monkey test for mac , linux
 
 
-##安装
+## 安装
 - pip3 install -r requirement.txt
 
-##配置
+## 配置
 - 配置文件位于: conf/config.yml 。
 
 adb 无线连接配置：  
@@ -15,10 +15,10 @@ adb 无线连接配置：
 同时多机运行: 配置在devList里
 
 
-##运行
+## 运行
 - python3 monkeyTest_runner.py
 
-##html 报告
+## html 报告
 - 报告生成路径: report/monkey  一份excel，一份html
 - ![avatar](img/summary.jpg)
 
