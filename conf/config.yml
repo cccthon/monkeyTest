@@ -1,0 +1,7 @@
+devList: [
+"192.168.20.78:5555", #xiaomi
+"192.168.20.29:5556", #oneplus
+]
+cmd: "monkey -p com.jianshu.jianshu --throttle 500 --ignore-timeouts --ignore-crashes   --monitor-native-crashes -v -v -v 500"
+package_name: "com.jianshu.jianshu" 
+net: "wifi"    #wifi, gprs

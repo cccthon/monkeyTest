@@ -1,0 +1,19 @@
+image: webtest-python-jmeter
+interFaceTest:
+  stage: test
+  script:
+    - echo "test"
+    - pwd
+    - ls -al
+    - pip3 list
+    - cat requirements.txt
+    - pip3 install -r requirements.txt
+    - python3 monkeyTest_runner.py
+    - ls -al
+    - ls -al report/
+    - ls -al /opt/docker-compose/nginx/nginxFile/report/
+    - cp -rf report/* /opt/docker-compose/nginx/nginxFile/report/
+  only:
+    - master
+  tags:
+    - docker

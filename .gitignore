@@ -1,0 +1,15 @@
+report/*.html
+report/*.xlsx
+__pycache__/
+/__pycache__
+__pycache__/*
+*.pyc
+.idea
+*.html
+.tags
+.tags_sorted_by_file
+__pycache__
+.DS_Store
+/report/*/
+log/*.log
+/install/*.apk
