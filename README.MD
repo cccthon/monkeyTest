@@ -7,10 +7,10 @@
 ##配置
 - 配置文件位于: conf/config.yml 。
 
-adb 无线连接配置：		
-&#8195;		1. 先使用数据线连上手机。 保证adb devices存在设备。并记录手机wifi ip 	
-&#8195;		2. adb tcpip 5555 	
-&#8195;		3. 拔掉数据线。 adb connect ip:5555
+adb 无线连接配置：    		
+    1. 先使用数据线连上手机。 保证adb devices存在设备。并记录手机wifi ip 	 
+    2. adb tcpip 5555 	 
+    3. 拔掉数据线。 adb connect ip:5555  
 
 同时多机运行: 配置在devList里
 
